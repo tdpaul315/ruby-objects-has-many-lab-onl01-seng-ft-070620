@@ -1,15 +1,15 @@
 class Artist
 
-  attr_accessor :name, :posts
+  attr_accessor :name, :post
 
   @@post_count = 0
 
   def initialize(name)
     @name = name
-    @posts = []
+    @post = []
   end
   
-  def posts
+  def post
     Post.all.select {|post| post.artist == self}
   end
 end 

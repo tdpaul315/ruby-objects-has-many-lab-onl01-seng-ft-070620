@@ -1,4 +1,5 @@
-attr_accessor :name, :artist
+class Song
+  attr_accessor :name, :artist
 
   @@all = []
 
@@ -18,5 +19,4 @@ attr_accessor :name, :artist
       nil
     end
   end
-
-end
+end 

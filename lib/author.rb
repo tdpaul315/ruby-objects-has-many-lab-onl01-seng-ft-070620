@@ -26,8 +26,8 @@ class Artist
     p
   end
   
-  def self.song_count
-    @@song_count 
+  def self.post_count
+    @@post_count 
   end 
 end
    
